@@ -5,11 +5,11 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/services">Services</Link></li>
-        <li><Link to="/review">Review</Link></li>
+        <li><Link to="/courses">Courses</Link></li>
         <li><Link to="/login">Login</Link></li>
     </>
     return (
-        <div class="navbar px-4">
+        <div class="navbar px-10">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
